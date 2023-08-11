@@ -1,0 +1,51 @@
+div{
+    width: 300px;
+    height: 400px;
+    background-image: url('Sabhawta.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    background-position: left;
+    background-attachment: fixed;
+}
+h2{
+    color: red;
+}
+p1{
+    color: goldenrod;
+    font-family: agency fb;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+    font-family: agency fb;
+    font-size: 25px;
+    font-style: italic;
+    font-variant: small-caps;
+}
+p2{
+    text-transform: uppercase;
+    text-shadow: 2px 2px red;
+}
+.manu{
+    background: yellow;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+ul li a{
+    text-decoration: none;
+}
+a:hover{
+    background: blue;
+    color: red;
+}
+a:active{
+    background: black;
+    color: white;
+}   
